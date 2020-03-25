@@ -1,0 +1,22 @@
+{
+  "name": "rn-components",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Densz/rn-components.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Densz/rn-components/issues"
+  },
+  "homepage": "https://github.com/Densz/rn-components#readme",
+  "dependencies": {
+    "react-native": "^0.61.5"
+  }
+}
