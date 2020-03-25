@@ -9,7 +9,7 @@ import {
 
 const styles = StyleSheet.create({
   button: {
-    color: "red"
+    backgroundColor: "red"
   }
 });
 
