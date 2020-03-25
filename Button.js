@@ -1,5 +1,11 @@
 import React from "react";
-import { View, TouchableOpacity, Platform, StyleSheet } from "react-native";
+import {
+  View,
+  TouchableOpacity,
+  Platform,
+  StyleSheet,
+  Text
+} from "react-native";
 
 const styles = StyleSheet.create({
   button: {
@@ -11,7 +17,7 @@ const Button = () => {
   return (
     <TouchableOpacity>
       <View style={styles.button}>
-        Button {Platform.OS === "ios" ? "ios" : "android"}
+        <Text>Button {Platform.OS === "ios" ? "ios" : "android"}</Text>
       </View>
     </TouchableOpacity>
   );
